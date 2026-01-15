@@ -211,6 +211,10 @@ main > section {
 
 /* sponsor related style */
 
+.our-sponsor {
+    margin-bottom:169px;
+}
+
 .sponsor-info {
     max-width:542px;
     justify-content: center;
@@ -229,6 +233,29 @@ main > section {
 .sponsors-company img {
     filter:grayscale(100%)
 }
+
+/* footer design css */
+
+footer {
+    background-color: #FFF4E7;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto 216px auto;
+    border:none;
+    border-radius: 8px;
+    padding:39px;
+}
+
+footer .footer-text {
+    font-size: 20px;
+    font-weight: 400;
+    color:#424242;
+    text-align: center;
+}
+
+
+
+/* Responsive work section */
 
 
 @media screen and (max-width: 576px) {
@@ -275,6 +302,17 @@ main > section {
 .feature-image img {
     width:100%;
 }
+footer {
+    max-width:100%;
+    width: 100%;
+    margin: 0 auto 50px auto;
+    border-radius: 6px;
+    padding:6px;
+}
+.footer-text {
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
 }
 
 /* responsive for medium display device */
@@ -315,5 +353,15 @@ main > section {
 .feature-image img {
     width:100%;
 }
+footer {
+        max-width: 100%;
+        margin: 0 auto 80px auto;
+        padding: 30px 25px;
+        border-radius: 8px;
+    }
+
+    .footer-text {
+        font-size: 1rem;
+    }
 
 }
